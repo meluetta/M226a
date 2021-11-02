@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Generator {
     /**
      * @author Mia Rascher
-     * @version 3.0
+     * @version 3.1
      * @since 2.0
      * @throws Exception e
      * @param args, array1
@@ -16,7 +16,7 @@ public class Generator {
 
     public void generateArraylist(ArrayList<Integer> array1){
         try{
-            for (int i = 0; i < 5; i++) {
+            for (int i = 0; i < 10; i++) {
                 int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);
                 array1.add(random_int);
             }

@@ -4,12 +4,12 @@ import java.util.Scanner;
 public class Gameloop {
     /**
      * @author Mia Rascher
-     * @version 3.0
+     * @version 3.1
      * @since 2.0
      * @throws Exception e
      * @param args, array1, mine
      */
-    private int counter = 5;
+    private int counter = 10;
     private int chosenNumber;
     private int chosenNumberPosition = 0;
     private Scanner scanner = new Scanner(System.in);
