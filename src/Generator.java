@@ -6,8 +6,8 @@ public class Generator {
      * @version 3.2
      * @since 2.0
      * @throws Exception e
-     * @param args, array1
-     * @methods generateArraylist, generateMine
+     * @param array1
+     * @methods generateArraylist
      * @description Generator Class where the random Numbers and the Mine get generated and inserted in the Array
      */
 
@@ -27,6 +27,14 @@ public class Generator {
         }
 
     }
+
+    /**
+     * @author Mia Rascher
+     * @throws Exception e
+     * @method generateMine
+     * @description generates a Mine(A random Position and Number in the Array)
+     * @param array1
+     */
     public void generateMine(ArrayList<Integer> array1){
         try{
             mine_position = (int)Math.floor(Math.random()*(4-min+1)+min);
