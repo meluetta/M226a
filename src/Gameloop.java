@@ -4,10 +4,12 @@ import java.util.Scanner;
 public class Gameloop {
     /**
      * @author Mia Rascher
-     * @version 3.1
+     * @version 3.2
      * @since 2.0
      * @throws Exception e
      * @param args, array1, mine
+     * @methods gameloop
+     * @description Gameloop Class where the complete Loop starts and gets managed with the Option to restart everything
      */
     private int counter = 10;
     private int chosenNumber;

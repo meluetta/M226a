@@ -3,10 +3,12 @@ import java.util.ArrayList;
 public class Generator {
     /**
      * @author Mia Rascher
-     * @version 3.1
+     * @version 3.2
      * @since 2.0
      * @throws Exception e
      * @param args, array1
+     * @methods generateArraylist, generateMine
+     * @description Generator Class where the random Numbers and the Mine get generated and inserted in the Array
      */
 
     private int min = 0;
